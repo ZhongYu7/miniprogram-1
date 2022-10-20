@@ -1,4 +1,5 @@
 <!--index.wxml-->
 <view class="container">
   The fist Weixin program
+  <text data-test="{{test}}">当前时间：{{time}}</text>
 </view>

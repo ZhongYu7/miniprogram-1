@@ -1,13 +1,48 @@
 {
-    "pages": [
-        "pages/index/index"
-    ],
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
-        "navigationBarTextStyle": "black"
-    },
-    "style": "v2",
-    "sitemapLocation": "sitemap.json"
+  "pages": [
+    "pages/index/index",
+    "pages/tabBar1/tabBar1",
+    "pages/tabBar2/tabBar2",
+    "pages/tabBar3/tabBar3"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "color": "#707070",
+        "selectedColor": "#ffffff",
+        "pagePath": "pages/index/index",
+        "text": "文章展示",
+        "iconPath": "/matter/tuijian.png",
+        "selectedIconPath": "/matter/tuijian.png"
+      },
+      {
+        "color": "#707070",
+        "selectedColor": "#ffffff",
+        "pagePath": "pages/tabBar1/tabBar1",
+        "text": "一川烟草",
+        "iconPath": "/matter/xuexi.png",
+        "selectedIconPath": "/matter/xuexi.png"
+      },
+      {
+        "pagePath": "pages/tabBar2/tabBar2",
+        "text": "满城风絮",
+        "iconPath": "/matter/zuopinku.png",
+        "selectedIconPath": "/matter/zuopinku.png"
+      },
+      {
+        "pagePath": "pages/tabBar3/tabBar3",
+        "text": "我的",
+        "iconPath": "/matter/pho.png",
+        "selectedIconPath": "/matter/pho.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }

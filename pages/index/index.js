@@ -1,2 +1,7 @@
 // index.js
-Page({})
+Page({
+  data:{
+    time: (new Date()).toString(),
+    test:"",
+  },
+})
